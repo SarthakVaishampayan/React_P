@@ -1,5 +1,6 @@
 import React from "react";
 import sv from "../assests/sv.png";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   let navbar_style = {
@@ -31,25 +32,72 @@ export default function Navbar() {
   return (
     <>
       <div className="App" style={navbar_style}>
-        <div style={{
-          position: "relative",
-          left: "-90px"
-}} className="font flex">
+        <div
+          style={{
+            position: "relative",
+            left: "-90px",
+          }}
+          className="font flex"
+        >
           <div>
-            <img  style={logo} src={sv} alt="SV" />
+            <img style={logo} src={sv} alt="SV" />
           </div>
-          <div style={{
-            display: "flex",
-            alignItems: "center",
-            marginLeft:"20px"}}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              marginLeft: "20px",
+            }}
+          >
             Sarthak Vaishampayan
           </div>
         </div>
         <div style={menu} className="flex font">
-          <div>Home</div>
-          <div>Resume</div>
-          <div>Expereince</div>
-          <div>About</div>
+          <Link></Link>
+          <div>
+            <Link
+              style={{
+                textDecoration: "none",
+                color: "black",
+              }}
+              to="/"
+            >
+              Home
+            </Link>
+          </div>
+          <div>
+            <Link
+              style={{
+                textDecoration: "none",
+                color: "black",
+              }}
+              to="/resume"
+            >
+              Resume
+            </Link>
+          </div>
+          <div>
+            <Link
+              style={{
+                textDecoration: "none",
+                color: "black",
+              }}
+              to="/Experience"
+            >
+              Experience
+            </Link>
+          </div>
+          <div>
+            <Link
+              style={{
+                textDecoration: "none",
+                color: "black",
+              }}
+              to="/About"
+            >
+              About
+            </Link>
+          </div>
         </div>
       </div>
     </>
