@@ -1,7 +1,7 @@
 import React from "react";
 import pp3 from "../assests/pp3.png";
 
-export default function home_content() {
+export default function Home() {
   let home_content_style = {
     display: "flex",
     alignItems: "center",
