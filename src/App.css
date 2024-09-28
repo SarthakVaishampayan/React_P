@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #61dafb;
+  /* background-color: #F5F5DC; */
 }
 
 .App-logo {
@@ -37,10 +37,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* my styles */
 .font{
 font-family: "Josefin Sans", sans-serif;
   /* font-optical-sizing: auto; */
   font-weight: 700;
   
   /* font-style: normal; */
+}
+.flex{
+  display: flex;
 }
