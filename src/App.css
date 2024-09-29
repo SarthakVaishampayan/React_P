@@ -50,3 +50,11 @@ font-family: "Josefin Sans", sans-serif;
 .flex{
   display: flex;
 }
+p{
+  margin: 7px;
+}
+
+.scrollable-div::-webkit-scrollbar {
+  width: 0; /* Hide scrollbar width */
+  background: transparent; /* Optional: make the background transparent */
+}

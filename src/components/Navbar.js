@@ -65,28 +65,8 @@ export default function Navbar() {
               Home
             </Link>
           </div>
-          <div>
-            <Link
-              style={{
-                textDecoration: "none",
-                color: "black",
-              }}
-              to="/resume"
-            >
-              Resume
-            </Link>
-          </div>
-          <div>
-            <Link
-              style={{
-                textDecoration: "none",
-                color: "black",
-              }}
-              to="/Experience"
-            >
-              Experience
-            </Link>
-          </div>
+          
+          
           <div>
             <Link
               style={{
@@ -96,6 +76,17 @@ export default function Navbar() {
               to="/About"
             >
               About
+            </Link>
+          </div>
+          <div>
+            <Link
+              style={{
+                textDecoration: "none",
+                color: "black",
+              }}
+              to="/resume"
+            >
+              Resume
             </Link>
           </div>
         </div>
