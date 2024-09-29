@@ -58,3 +58,18 @@ p{
   width: 0; /* Hide scrollbar width */
   background: transparent; /* Optional: make the background transparent */
 }
+.magnify-div {
+  /* width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-color: #bde6ad54;
+  transition: transform 0.3s ease; /* Smooth transition effect */
+  z-index: 1;
+
+}
+
+.magnify-div:hover {
+  transform: scale(1.2); /* Magnifies the div by 1.2 times */
+}
