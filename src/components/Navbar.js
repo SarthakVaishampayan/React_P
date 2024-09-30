@@ -73,9 +73,9 @@ export default function Navbar() {
                 textDecoration: "none",
                 color: "black",
               }}
-              to="/About"
+              to="/Co_Curricular"
             >
-              About
+              Co-Curricular
             </Link>
           </div>
           <div>

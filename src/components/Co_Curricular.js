@@ -1,7 +1,7 @@
 import React from "react";
 import pp3 from "../assests/pp3.png";
 
-export default function About() {
+export default function Co_Curricular(){
   let home_content_style = {
     display: "flex",
     alignItems: "center",
